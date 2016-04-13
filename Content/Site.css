@@ -6,7 +6,7 @@
   margin-left: 14em;
   margin-top: 0.5em;
   width: 85%;
-    transition: margin-left 0.3s linear;
+  transition: margin-left 0.3s linear;
   -moz-transition: margin-left 0.3s linear;
   -webkit-transition: margin-left 0.3s linear;
 }
@@ -35,6 +35,9 @@ header {
         width: 13em;
         height: 100%;
         background-color: #000000;
+        transition: left 0.3s linear;
+       -moz-transition: left 0.3s linear;
+       -webkit-transition: left 0.3s linear;
     }
     
     .pdsa-sn-wrapper ul {
@@ -82,11 +85,26 @@ header {
                color: #add8e6;
                background: none;
            }
+           
+            .pdsa-sn-wrapper ul li a span {
+                margin-top: -1em;
+                margin-bottom: -1em;
+                margin-left: -1em;
+                padding-top: -1em;
+                padding-bottom: -1em;
+                }
+                
     @media all and (max-width: 768px) {
         .pdsa-sn-wrapper {
-            left: -13em;
+            left: -10em;
         }
+        .pdsa-sn-wrapper ul li a i {
+            padding-left: 10em;
+            margin-top: -1em;
+            margin-bottom: -1em;
+        }
+        
         .body-content {
-            margin-left: 0;
+            margin-left: 5em;
         }
     }
