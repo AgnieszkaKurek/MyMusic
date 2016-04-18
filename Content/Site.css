@@ -227,4 +227,22 @@ header {
       opacity: 1;
       cursor: pointer;
     }
+    
+    .pdsa-readme-box {
+      min-height: 24em;
+    }
+    .checkbox .btn,
+    .checkbox-inline .btn {
+      padding-left: 2em;
+      min-width: 7em;
+    }
+    
+    .checkbox-inline {
+      margin-left: -1.5em;
+    }
+    
+    .checkbox label,
+    .checkbox-inline label {
+      text-align: left;
+    }
 
