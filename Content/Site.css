@@ -272,5 +272,17 @@ header {
 }
 .pdsa-panel-toggle {
   float: right;
-  
 }
+
+.pdsa-submit-progress-bg {
+  background-color: #d3d3d3;
+  opacity: .5;
+}
+.pdsa-sumbmit-progress {
+  padding-top: 2em;
+  width: 23em;
+  margin-left: -11.5em;
+} 
+   .pdsa-submit-progress i {
+     margin-right: 0.5em;
+   }
