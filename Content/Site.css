@@ -267,4 +267,10 @@ header {
             padding-bottom: 0;
             
         }
-
+.panel .panel-heading .panel-title a {
+  text-decoration: none;
+}
+.pdsa-panel-toggle {
+  float: right;
+  
+}
